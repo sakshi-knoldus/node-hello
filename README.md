@@ -32,7 +32,3 @@ Install the war file `jenkins wget https://get.jenkins.io/war-stable/2.263.2/jen
 Run the jenkins `java -jar jenkins.war`
 
 
-### Steps follow to create a Virtual Machine inside a Virtual Machine 
-Transfer the pem file of EC2-Instance from local machine to VM using scp
-Upload a file : scp -i EC2-Instance.pem -r  ubuntu@IPv DNS: 
-Download a file : scp -i EC2-Instance.pem temp.txt  ubuntu@IPv DNS:
